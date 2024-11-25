@@ -19,7 +19,7 @@ pip install -U pykt-toolkit
 ### Prepare a Dataset
 **1、Obtain a Dataset**
 
-Let's start by downloading the dataset from [here](datasets.md). Please make sure you have creat the `data/{dataset_name}` folder
+Let's start by downloading the dataset from [here](datasets.md). Please make sure you have created the `data/{dataset_name}` folder
 <!-- You can find the download link for a dataset from [here](datasets.md). Download the dataset to the `data/{dataset_name}` folder. -->
 
 **2、Data Preprocessing**
