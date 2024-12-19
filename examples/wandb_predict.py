@@ -77,7 +77,7 @@ def main(params):
     if model.model_name == "rkt":
         testauc, testacc = evaluate(model, test_loader, model_name, rel, save_test_path)
     else:
-        testauc, testacc = evaluate(model, test_loader, model_name, save_test_path)
+        testauc, testacc = evaluate(model, test_loader, model_name, None, save_test_path)
     print(f"testauc: {testauc}, testacc: {testacc}")
 
     window_testauc, window_testacc = -1, -1
